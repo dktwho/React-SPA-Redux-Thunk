@@ -33,8 +33,8 @@ const Comments = (props) => {
 
   return (
     <div className='card-comments' >
-      <form className='comment-item-create' action="" onSubmit={handleSubmit}>
-        <input type="text" value={textComment} onChange={handleInput}/>
+      <form className='comment-item-create' action="" onSubmit={handleSubmit}  >
+        <input className='comment-input' type="text" value={textComment} onChange={handleInput} placeholder='  Add comment...'/>
         <input type="submit" hidden />
       </form>
       {!!comments.length && comments.map((res) => {

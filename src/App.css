@@ -9,13 +9,14 @@
 .card {
   display: flex;
   padding: 20px;
-  border: 1px solid #edeeed;
+  border: 1px solid #6b726b;
+  border-radius: 5px;
   box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03);
   flex-basis: calc(33.333% - 40px);
   flex-grow: 1;
   flex-shrink: 0;
   margin: 0 20px 20px 20px;
-  background: white;
+  background: rgb(221, 211, 211);
   position: relative;
 }
 .card-image {
@@ -24,6 +25,7 @@
   box-shadow: none;
   margin: 0 2rem 0 0;
   border: 0;
+  border-radius: 2px;
   padding: 0;
   flex: 1 0 60%;
   max-width: 60%;
@@ -39,11 +41,20 @@
 .comments-item {
   display: flex;
   align-items: center;
+  padding-right: 15px;
 }
 .comments-item-delete {
   padding: 5px 15px 5px 5px;
   cursor: pointer;
 }
+
+.comment-input {
+  font: bold;
+  font-size: 20px;
+  background-color: #b1b6b1;
+  padding-right: 10px;
+}
+
 .button-controls {
   display: flex;
   justify-content: space-between;
@@ -75,10 +86,13 @@ button hover {
   outline: 0;
 }
 input {
+  margin-top: 5px;
+  border-radius: 5px;
   width: 100%;
   border: 0;
   padding: 10px 0;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #928888;
+  background-color: #928888;
   outline: none;
   resize: vertical;
 }
@@ -107,3 +121,9 @@ input {
   padding: 10px 20px;
   border: 1px solid rgba(10, 10, 10, 0.25);
 }
+
+.remove-symbol {
+  color: red;
+  margin-top: 10px;
+}
+
