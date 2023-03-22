@@ -12,11 +12,15 @@ const SingleComments = ({data}) => {
     }
   }, [text])
 
+  const handleInput = (e) => {
+    setCommentText(e.target.value)
+  }
+
 
   return (
     <form className='comments-item' action="">
       <div className="comment-item-delete">&times;</div>
-      <input type="text" value={commentText} />
+      <input type="text" value={commentText} onChange={handleInput} />
       <input type="submit" hidden />
     </form>
   )
