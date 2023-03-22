@@ -13,7 +13,8 @@ const Title = (props) => {
   const handleChange = (e) => {
     dispatch(inputText(e.target.value))
   }
-   console.log('props title', props)
+
+  
   return (
     <div className='card-title'>
       <div className="card-title-prop">
