@@ -1,3 +1,22 @@
+# Содержание
+
+Пример работы приложения React с Redux? с использованием хукок useSelector, useDispatch, useState, useEffect.
+
+1. Компонент Likes с использованием функции connect из react-redux, кнопки инкрмента и декремента
+2. Создание масштабируемой структуры Redux.
+3. Создание отдельного файла для типов Actions.
+4. Создание likeReducer
+5. Использование Provider для подключения хранилища.
+6. Создание отдельного файла для Actions.
+7. Компонент Title с использованием хуков.
+8. Компонент Comments с использованием хуков.
+9. Создание нового хранилища Redux.
+10. Отображение созданных комментариев, с функционалом редактирования и удаления.
+11. Использования Redux Thunk для подгрузки комментариев лимит 10шт - с jsonplaceholder
+12. Создание Loader
+13. Обработка ошибок в Redux запрос к jsonplaceholder и отрисовка компонента с таймером, предупреждающий об ошибки.
+14. Создание собственногo middleware валидирующий запрещенные слова (из массива badWords) подключено через сcompose, applyMiddleware.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
